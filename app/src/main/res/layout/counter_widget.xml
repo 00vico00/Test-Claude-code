@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/counter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/counter_text"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/decrement_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/decrement"
+            android:textSize="24sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="@string/reset"
+            android:textSize="14sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/increment_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/increment"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
